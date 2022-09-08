@@ -40,5 +40,5 @@ Performed CURD operations in SQLite database.
 
 ## Made By
 
-[@UditGoyal (me_gtonochillz)](https://github.com/udit0012)
+[@UditGoyal](https://github.com/udit0012)
 
