@@ -6,43 +6,38 @@ Performed CURD operations in SQLite database.
 
 ## Run Locally
 
-Clone the project
-
+1. Clone the project
 ```bash
   git clone https://github.com/udit0012/TODO-Flask.git
 ```
-
-Go to the project directory
-
+2. Go to the project directory
 ```bash
   cd TODO-Flask
 ```
-Create Virtual environment
-```bash
-    pip install virtualenv
-    virtualenv env
+3. Create a new Virtual environment
+    * Windows : 
+    ```bash
+        pip install virtualenv
+        python -m venv ./venv
+        .\venv\Scripts\activate
+    ```
+    * Ubuntu :
+    ```bash
+        pip install virtualenv
+        python -m venv ./venv
+        ./venv/bin/activate
+    ``` 
 
-    //activate virtualenv
-    //for bash
-    ./env/bin/activate 
-
-    //for powershell windows
-    ./env/bin/activate.ps1
-```
-
-Install dependencies
-
+4. Install dependencies
 ```bash
   pip install -r requirements.txt
 ```
-
-Run the website
+5. Run the website
 
 ```bash
   python ./app.py
 ```
 
-If unable to Clone the repository comment the issue.
 ## Made By
 
 [@UditGoyal (me_gtonochillz)](https://github.com/udit0012)
